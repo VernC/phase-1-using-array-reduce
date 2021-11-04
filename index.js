@@ -8,4 +8,4 @@ const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
 //This is off of MDN... What am I doing wrong?
 
 const totalBatteries = (previousValue, currentValue) => previousValue + currentValue
-return batteryBatches.reduce(totalBatteries)
+batteryBatches.reduce(totalBatteries)
